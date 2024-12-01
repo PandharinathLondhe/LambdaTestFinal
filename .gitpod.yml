@@ -20,7 +20,9 @@ vscode:
 FROM gitpod/workspace-full:latest
 
 # Install Java 11
-RUN sudo apt-get update && sudo apt-get install -y openjdk-11-jdk
+RUN sudo apt-get update 
+
+RUN sudo apt-get install -y openjdk-11-jdk
 
 # Install Maven
 RUN sudo apt-get install -y maven
