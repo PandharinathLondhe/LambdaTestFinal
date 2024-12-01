@@ -1,0 +1,24 @@
+name: LambdaTest Suite
+configFailurePolicy: skip
+parameters: { url: https://www.lambdatest.com/selenium-playground/ }
+tests:
+  - name: Chrome Test
+  parameters: { browser: chrome }
+  classes:
+    - TestNGPackage.LambdaTestCertifications
+
+  - name: Edge Test
+  parameters: { browser: edge }
+  classes:
+    - TestNGPackage.LambdaTestCertifications
+
+  - name: Firefox Test
+  parameters: { browser: firefox }
+  classes:
+    - TestNGPackage.LambdaTestCertifications
+
+  - name: Internet Explorer Test
+  parameters: { browser: ie }
+  classes:
+    - TestNGPackage.LambdaTestCertifications
+
