@@ -36,3 +36,6 @@ RUN wget -q -O /tmp/chromedriver.zip https://chromedriver.storage.googleapis.com
 
 # Install Chrome Browser
 RUN sudo apt-get install -y google-chrome-stable
+
+# Install Firefox Browser 
+RUN sudo apt-get install -y firefox
